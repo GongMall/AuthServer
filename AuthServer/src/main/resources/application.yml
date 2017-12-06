@@ -1,0 +1,20 @@
+# Server Configuration
+server:
+  port: 5050
+  contextPath:
+
+# Spring Configuration
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb://139.196.148.7:27017/test
+#  jackson:
+#      serialization:
+#        INDENT_OUTPUT: true
+
+# Logging Configuration
+logging:
+  level:
+    org.springframework:
+      data:DEBUG
+      sercurity:DEBUG

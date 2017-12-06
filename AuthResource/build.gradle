@@ -32,5 +32,8 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-undertow')
+	compile('org.apache.oltu.oauth2:org.apache.oltu.oauth2.authzserver:1.0.2')
+
+	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
